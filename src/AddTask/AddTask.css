@@ -1,0 +1,53 @@
+.input {
+    width: 45%;
+    padding: 16px;
+    margin: 15px auto;
+    border: 2px solid #2368a2;
+    box-shadow: 0 2px 15px #1a4971;
+    background-color:#2368a2;
+    text-align: center;
+}
+.inputbox {
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    outline:none;
+    background: #2368a2;
+    border-radius: 15px;
+    border: 2px solid white;
+    color: white;
+    transition: all 0.5s;
+  }
+  
+.inputbox:hover {
+    border: 2px solid skyblue;;
+  }
+.inputbox:focus {
+    border: 2px solid skyblue;
+    background:skyblue;
+    color:crimson;
+  }
+
+
+.btn-add{
+    margin:20px;
+    padding:10px;
+    font-size: 18px;
+    color:white;
+    border: 2px solid green;
+    border-radius: 15px;
+    background:green;
+}
+
+.btn-add:hover{
+    border:1px solid white;
+}
+
+.btn-add:active {
+    background-color: rgb(41, 158, 194);
+    color:white;
+}
+::placeholder{
+    color:white;
+    opacity: .5;
+}

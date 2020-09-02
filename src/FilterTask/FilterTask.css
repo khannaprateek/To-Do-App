@@ -1,0 +1,36 @@
+.filter {
+    width: 45%;
+    padding: 10px;
+    margin: 15px auto;
+    border: 2px solid #2368a2;
+    box-shadow: 0 2px 15px #1a4971;
+    background-color:#2368a2;
+    text-align: center;
+    color:orange;
+    font-size: 15px;
+}
+
+.filter-input {
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    outline:none;
+    background: #2368a2;
+    border-radius: 15px;
+    border: 2px solid white;
+    color: white;
+    transition: all 0.5s;
+  }
+  
+.filter-input:hover {
+    border: 2px solid skyblue;;
+  }
+.filter-input:focus {
+    border: 2px solid skyblue;
+    background:skyblue
+  }
+
+  ::placeholder{
+      color:white;
+      opacity: .5;
+  }

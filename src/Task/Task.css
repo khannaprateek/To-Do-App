@@ -1,0 +1,81 @@
+.task {
+    width: 40%;
+    padding: 15px;
+    margin: 15px auto;
+    border: 2px solid #2368a2;
+    box-shadow: 0 2px 15px #1a4971;
+    background-color:#2368a2;
+    text-align: center;
+    color:white;
+    font-size: 20px
+}
+/* .task {
+    width: 50%;
+    padding: 16px;
+    margin: 15px auto;
+    border: 2px solid rgb(41, 158, 194);
+    box-shadow: 0 5px 5px rgb(81, 127, 214);
+    background-color: rgb(45, 160, 206);
+    text-align: center;
+} */
+
+.btn-del{
+    width:15%;
+    margin:10px;
+    padding:5px;
+    font-size: 18px;
+    color:white;
+    border: 2px solid #db4030;
+    border-radius: 17px;
+    background:#db4030;
+}
+.btn-edit{
+    width:15%;
+    margin: 5px 10px;
+    padding:5px;
+    font-size: 18px;
+    color:white;
+    border: 2px solid skyblue;
+    border-radius: 17px;
+    background:skyblue;
+}
+.task-txt{
+    margin:2px;
+}
+
+.btn-save{
+    margin:20px;
+    padding:10px;
+    font-size: 18px;
+    color:white;
+    border: 2px solid green;
+    border-radius: 15px;
+    background:green;
+}
+
+.btn-save:hover{
+    border:1px solid white;
+}
+
+.btn-save:active {
+    background-color: rgb(41, 158, 194);
+    color:white;
+}
+
+.edit-input {
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    outline:none;
+    background: #2368a2;
+    border-radius: 15px;
+    border: 2px solid white;
+    color: white;
+    transition: all 0.5s;
+  }
+  
+.edit-input:hover {
+    border: 2px solid skyblue;;
+  }
+
+
